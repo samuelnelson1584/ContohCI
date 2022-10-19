@@ -1,0 +1,6 @@
+starter\user\Post.class
+starter\stepdefinitions\UserSteps.class
+starter\user\Put.class
+starter\stepdefinitions\CucumberTestSuite.class
+starter\user\Delete.class
+starter\user\Get.class
