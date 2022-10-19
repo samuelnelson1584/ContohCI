@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: User
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.281 s - in User
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.344 s - in User

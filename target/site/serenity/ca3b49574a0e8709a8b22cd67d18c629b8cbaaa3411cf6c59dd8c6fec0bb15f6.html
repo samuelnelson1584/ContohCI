@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>GET - As admin i have be able to get detail user</title>
+    <title>POST - As admin I have be able to create new user</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -125,7 +125,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-        > GET - As admin i have be able to get detail user
+        > POST - As admin I have be able to create new user
         </span>
         </div>
         <div class="rightbg"></div>
@@ -175,7 +175,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    GET - As admin i have be able to get detail user
+                                    POST - As admin I have be able to create new user
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -229,7 +229,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Given I set GET api endpoints
+                                                Given I set POST api endpoints
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -238,7 +238,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">4s 031ms</span></td>
+                        <td width="100"><span class="top-level-step">023ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -255,7 +255,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                I set GET api endpoints
+                                                I set POST api endpoints
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -263,7 +263,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">005ms</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
 
                                 </table>
@@ -285,7 +285,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                When I send GET HTTP request
+                                                When I send POST HTTP request
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -294,7 +294,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">13s 845ms</span></td>
+                        <td width="100"><span class="top-level-step">662ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -315,7 +315,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                I send GET HTTP request
+                                                I send POST HTTP request
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -324,7 +324,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">13s 839ms</span></td>
+                        <td width="100"><span class="nested-step">656ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -341,7 +341,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                I set GET api endpoints
+                                                I set POST api endpoints
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -349,7 +349,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -363,7 +363,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                GET https://reqres.in/api/users/2
+                                                POST https://reqres.in/api/users
                                         </span>
                                 <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -379,19 +379,19 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: https://reqres.in/api/users/2</p>
-                                        <p>Status code: 200</p>
-                                        <p>Content Type: null</p>
+                                        <p>URL: https://reqres.in/api/users</p>
+                                        <p>Status code: 201</p>
+                                        <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Accept=*/*</pre>
+                                        <pre>Accept=*/*<br>Content-Type=application/json</pre>
                                         <h4>Content Body</h4>
-                                        <pre></pre>
+                                        <pre>{<br>    &quot;name&quot;: &quot;morpheus&quot;,<br>    &quot;job&quot;: &quot;leader&quot;<br>}</pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Wed, 19 Oct 2022 10:01:32 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Etag: W/&quot;118-pbdwwFo9SKNhD3Lx5iHJyngpq00&quot;<br>Via: 1.1 vegur<br>Cache-Control: max-age=14400<br>CF-Cache-Status: HIT<br>Age: 951<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=egcG5uZwHs4uORGHLJNe%2B81bsNEk223r3RLp%2BQPxWwrXJMsqjqGJiamFJmm51NLxGHXitoqMqJMEolVU0TXeOwUVPhbRTJrKT0SfRnwqXdaDiddG8L6QfL9FYQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Vary: Accept-Encoding<br>Server: cloudflare<br>CF-RAY: 75c8ac477c194d5d-SIN<br>Content-Encoding: gzip</pre>
+                                        <pre>Date: Wed, 19 Oct 2022 10:01:35 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 84<br>Connection: keep-alive<br>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Etag: W/&quot;54-ZOVQrLjXi4xlujH+fxlxIv3fr4Q&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=lKdI8BXImph9ieExS3gl3d%2BxPw42imNwUZjUUoDkV2x8bEBde50GjTwQVjKNnnr%2FLYkoAPRJdqd7pQXlix1wSeZf1nkHI98%2BjLdT1sclZd4gftd6qY4qvqVtog%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 75c8ac588e2c9fd3-SIN</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;data&quot;: {<br>        &quot;id&quot;: 2,<br>        &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,<br>        &quot;first_name&quot;: &quot;Janet&quot;,<br>        &quot;last_name&quot;: &quot;Weaver&quot;,<br>        &quot;avatar&quot;: &quot;https://reqres.in/img/faces/2-image.jpg&quot;<br>    },<br>    &quot;support&quot;: {<br>        &quot;url&quot;: &quot;https://reqres.in/#support-heading&quot;,<br>        &quot;text&quot;: &quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;<br>    }<br>}</pre>
+                                        <pre>{<br>    &quot;name&quot;: &quot;morpheus&quot;,<br>    &quot;job&quot;: &quot;leader&quot;,<br>    &quot;id&quot;: &quot;678&quot;,<br>    &quot;createdAt&quot;: &quot;2022-10-19T10:01:35.086Z&quot;<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -402,7 +402,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -428,7 +428,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Then I receive valid HTTP response code 200
+                                                Then I receive valid HTTP response code 201
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -437,7 +437,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">106ms</span></td>
+                        <td width="100"><span class="top-level-step">008ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -454,7 +454,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                I receive valid HTTP response code
+                                                I receive valid HTTP response code 201
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -462,7 +462,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">102ms</span></td>
+                        <td width="100"><span class="nested-group-step">002ms</span></td>
                     </tr>
 
                                 </table>
@@ -484,7 +484,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                And I receive valid data for detail user
+                                                And I receive valid data for new user
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -493,7 +493,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">1s 859ms</span></td>
+                        <td width="100"><span class="top-level-step">043ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -510,7 +510,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                I receive valid data for detail user
+                                                I receive valid data for new user
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -518,7 +518,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 855ms</span></td>
+                        <td width="100"><span class="nested-group-step">039ms</span></td>
                     </tr>
 
                                 </table>
@@ -527,7 +527,7 @@
                 <tr class="test-SUCCESS">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>20.62s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.75s</em></span></td>
                 </tr>
 
             </table>
